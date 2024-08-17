@@ -1,0 +1,83 @@
+$primary-color: rgba(255, 239, 231, 1);
+$secondary-color:#FFDAC6;
+$tertiary-color: #BABD8D;
+$primary-text-color: #7C6A0A;
+$quaterny-color: #FA9500;
+$font-stack: 'IBM Plex Sans', sans-serif;;
+$paragrapgh-size: 1.5em;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
+    font-family: $font-stack;
+}
+
+nav {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    color: $primary-text-color;
+    padding: 15px;
+    p {
+        font-size: $paragrapgh-size;
+        padding-left: 30px;
+    }
+    .icons {
+        display: flex;
+        gap: 15px;
+        button {
+            background:none;
+            border-style: none;
+        }
+    }
+}
+
+article {
+    width: auto;
+    color: $primary-text-color;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    .impact-section {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 25px;
+    }
+
+    h1 {    
+        font-size: 3em;
+        padding: 0px;
+        margin: 0px;
+    }
+    p {
+        font-size: $paragrapgh-size;
+
+    }
+
+    button {
+        width: 12vw;
+        padding: 20px;
+        background-color: $quaterny-color;
+        border-style: none;
+        border-radius: 35px;
+        color: white;
+        font-size: 1em;
+    }
+
+    img {
+        width: 25vw;
+        border-radius: 19px;
+        }
+
+}
+
+footer {
+    background-color: $quaterny-color;
+    width: 100%;
+    height: 250px;
+}
