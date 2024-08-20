@@ -126,23 +126,33 @@ section .furniture .product-card {
   background-color: #BABD8D;
   color: white;
 }
-section .info-section {
-  width: 100%;
-  height: auto;
+section .about-us {
+  padding-bottom: 60px;
 }
-section .info-section img {
-  display: flex;
+section .about-us h2 {
+  font-weight: bold;
+  padding-bottom: 60px;
 }
-section .earth {
+section .about-us .mission-section {
   display: flex;
   flex-direction: row;
-  padding-left: 50px;
-  color: rgb(232, 100, 36);
+  justify-content: space-evenly;
+  align-items: center;
 }
-section .earth p {
-  font-size: 1.5em;
-  font-weight: 500;
+section .about-us .mission-section .earth, section .about-us .mission-section .innovation {
+  width: 40vw;
+  display: flex;
+  gap: 40px;
+  color: #e86424;
+}
+section .about-us .mission-section .earth img, section .about-us .mission-section .innovation img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .about-us .mission-section .earth p, section .about-us .mission-section .innovation p {
   text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 footer {
